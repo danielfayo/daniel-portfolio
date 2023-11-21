@@ -4,7 +4,7 @@ export const content = {
     {
       order: 1,
       github: "https://github.com/danielfayo/dale",
-      live: "dale-one.vercel.app",
+      live: "https://dale-one.vercel.app",
       image: "/photos/dale.png",
       name: "Dale (WIP)",
       description:
@@ -13,7 +13,7 @@ export const content = {
     {
       order: 2,
       github: "https://github.com/danielfayo/dev-links",
-      live: "dev-links-mu.vercel.app",
+      live: "https://dev-links-mu.vercel.app",
       image: "/photos/devlinks.png",
       name: "DevLinks",
       description:
@@ -22,7 +22,7 @@ export const content = {
     {
       order: 3,
       github: "https://github.com/danielfayo/kanban",
-      live: "kanban fayo.vercel.app",
+      live: "https://kanban-fayo.vercel.app",
       image: "/photos/kanban.png",
       name: "Kanban",
       description:
@@ -31,11 +31,15 @@ export const content = {
     {
       order: 4,
       github: "",
-      live: "dessatistudio.com",
+      live: "https://dessatistudio.com",
       image: "/photos/dessati.png",
       name: "Dessati Studio Website (Webflow)",
       description:
         " Dessati Studio s website is a website I developed using Webflow for a digital agency in London. The website showcases some projects the agency has worked on, the services it offers, and its international team.",
     },
   ],
+  socials: [
+    {site: "LinkedIn", URL: "https://linkedin.com/in/daniel-olufayokunmi-0618a8214"},
+    {site: "GitHub", URL: "https://github.com/danielfayo"}
+  ]
 };
