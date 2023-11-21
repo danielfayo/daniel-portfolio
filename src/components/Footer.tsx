@@ -17,6 +17,7 @@ const Footer: React.FC<FooterProps> = () => {
         <div className="space-x-2 flex">
           {content.socials.map((eachSocial) => (
             <Link
+            key={eachSocial.site}
               className="font-bold flex"
               target="_blank"
               href={eachSocial.URL}

@@ -13,6 +13,7 @@ const Block: React.FC<BlockProps> = () => {
     >
       {Array.from({ length: 5 }).map((_, index) => (
         <motion.div
+          key={index}
           initial={{ y: 0 }}
           animate={{ y: "-100%" }}
           transition={{ duration: 0.3 * index }}
