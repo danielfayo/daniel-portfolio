@@ -11,6 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <main className={`${myFont.className}`}>
       <Head>
         <title>Daniel Olufayokunmi</title>
+        <link rel="icon" href="/danielfay.ico" />
       </Head>
         <Nav />
         {children}
