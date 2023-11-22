@@ -13,7 +13,7 @@ const Projects: React.FC<ProjectsProps> = () => {
       <div className="space-y-6 mt-4">
         {content.projects.map((eachProject) => (
           <div key={eachProject.order}>
-            <motion.div initial={{opacity: 0, y: 150}} whileInView={{opacity: 100, y: 0}} transition={{duration: 0.3}} className="p-1 bg-yellow-500 border-black border-4 mb-2">
+            <motion.div initial={{opacity: 0, y: 100}} whileInView={{opacity: 100, y: 0}} transition={{duration: 0.3}} className="p-1 bg-yellow-500 border-black border-4 mb-2">
               <div className="relative w-full aspect-video max-h-[608px] ">
                 <Image
                   src={eachProject.image}
