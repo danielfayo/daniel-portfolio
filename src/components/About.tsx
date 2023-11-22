@@ -1,3 +1,5 @@
+import { content } from "@/content";
+import { motion } from "framer-motion";
 import React from "react";
 
 type AboutProps = {};
@@ -20,10 +22,13 @@ const About: React.FC<AboutProps> = () => {
 
       <span className="font-bold">Technologies I mostly use:</span>
       <ol>
-        <li className="font-medium">NextJS</li>
+        {content.tools.map((eachTool, index) => (
+          <motion.li initial={{x: -10, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{delay: 0.3*index}} className="font-medium" key={eachTool}>{eachTool}</motion.li>
+        ))}
+        {/* <li className="font-medium">NextJS</li>
         <li className="font-medium">TypeScript</li>
         <li className="font-medium">TailwindCSS</li>
-        <li className="font-medium">Firebase</li>
+        <li className="font-medium">Firebase</li> */}
       </ol>
       </div>
     </div>
