@@ -16,7 +16,7 @@ const Block: React.FC<BlockProps> = () => {
           key={index}
           initial={{ y: 0 }}
           animate={{ y: "-100%" }}
-          transition={{ duration: 0.3 * index }}
+          transition={{ duration: 0.3 * index+1 }}
           className="h-full w-1/5 bg-black"
         />
       ))}
