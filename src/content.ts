@@ -6,7 +6,7 @@ export const content = {
       github: "https://github.com/danielfayo/dale",
       live: "https://dale-one.vercel.app",
       image: "/photos/dale.png",
-      name: "Dale (WIP)",
+      name: "Dale",
       description:
         " Dale is an application that enables creators to sell digital products directly to their consumers. Users can sell items such as e books, digital art, music, courses, software, and other digital goods through the platform. Major features of the app include the ability for users to create, share, edit, and delete products. Consumers will be able to purchase any product, and they will receive the product in their email. NextJS and Firebase were the technologies used in this project.",
     },

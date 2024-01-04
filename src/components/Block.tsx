@@ -8,7 +8,7 @@ const Block: React.FC<BlockProps> = () => {
     <motion.div
       initial={{ y: 0 }}
       animate={{ y: "-100%" }}
-      transition={{ duration: 0.3 * 5 }}
+      transition={{ duration: 0.4 * 6 }}
       className="fixed z-20 flex h-full w-full"
     >
       {Array.from({ length: 5 }).map((_, index) => (
@@ -16,7 +16,7 @@ const Block: React.FC<BlockProps> = () => {
           key={index}
           initial={{ y: 0 }}
           animate={{ y: "-100%" }}
-          transition={{ duration: 0.3 * index+1 }}
+          transition={{ duration: 0.2 * index+1, delay: 0.1*index}}
           className="h-full w-1/5 bg-black"
         />
       ))}
