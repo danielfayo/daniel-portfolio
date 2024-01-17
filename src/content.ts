@@ -28,15 +28,15 @@ export const content = {
       description:
         " This is a front end task management application I developed using NextJS. It allows users to create and manage multiple projects, create tasks and subtasks within projects, and add these tasks into categories of their choice.",
     },
-    {
-      order: 4,
-      github: "",
-      live: "https://dessatistudio.com",
-      image: "/photos/dessati.png",
-      name: "Dessati Studio Website (Webflow)",
-      description:
-        " Dessati Studio s website is a website I developed using Webflow for a digital agency in London. The website showcases some projects the agency has worked on, the services it offers, and its international team.",
-    },
+    // {
+    //   order: 4,
+    //   github: "",
+    //   live: "https://dessatistudio.com",
+    //   image: "/photos/dessati.png",
+    //   name: "Dessati Studio Website (Webflow)",
+    //   description:
+    //     " Dessati Studio s website is a website I developed using Webflow for a digital agency in London. The website showcases some projects the agency has worked on, the services it offers, and its international team.",
+    // },
   ],
   socials: [
     {site: "LinkedIn", URL: "https://linkedin.com/in/daniel-olufayokunmi-0618a8214"},
