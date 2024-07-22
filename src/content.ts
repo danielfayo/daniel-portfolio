@@ -3,6 +3,15 @@ export const content = {
   projects: [
     {
       order: 1,
+      github: "",
+      live: "https://pnrconsult.com",
+      image: "/photos/pnr.png",
+      name: "PNR Consult Website",
+      description:
+        "The PNR Consult Website showcases the company's profile, services, and pricing structure while providing a platform for clients to submit service inquiries. Built using Next.js, the site also integrates HubSpot via Next.js API routes to manage client inquiries efficiently.",
+    },
+    {
+      order: 2,
       github: "https://github.com/danielfayo/dale",
       live: "https://dale-one.vercel.app",
       image: "/photos/dale.png",
@@ -11,7 +20,7 @@ export const content = {
         " Dale is an application that enables creators to sell digital products directly to their consumers. Users can sell items such as e books, digital art, music, courses, software, and other digital goods through the platform. Major features of the app include the ability for users to create, share, edit, and delete products. Consumers will be able to purchase any product, and they will receive the product in their email. NextJS and Firebase were the technologies used in this project.",
     },
     {
-      order: 2,
+      order: 3,
       github: "https://github.com/danielfayo/dev-links",
       live: "https://dev-links-mu.vercel.app",
       image: "/photos/devlinks.png",
@@ -20,7 +29,7 @@ export const content = {
         " Dev Links is a full stack link sharing application I developed as a personal project using NextJS for the frontend, Firebase as the backend and Redux Toolkit for global state management. It is an application that provides users with a landing page where they can share all of their associated social media links. Major features of the app include the ability for users to add several links and customize their profiles.",
     },
     {
-      order: 3,
+      order: 4,
       github: "https://github.com/danielfayo/kanban",
       live: "https://kanban-fayo.vercel.app",
       image: "/photos/kanban.png",
@@ -29,7 +38,7 @@ export const content = {
         " This is a front end task management application I developed using NextJS. It allows users to create and manage multiple projects, create tasks and subtasks within projects, and add these tasks into categories of their choice.",
     },
     {
-      order: 4,
+      order: 5,
       github: "",
       live: "https://dessatistudio.com",
       image: "/photos/dessati.png",
